@@ -31,3 +31,10 @@ create table Productos(
 	URL_IMAGEN varchar(200) null,
 	ESTADO bit not null
 )
+
+
+
+
+
+--datos insertos
+INSERT INTO Marca(TIPOCLIENTE) VALUES('Cliente muy importante')
