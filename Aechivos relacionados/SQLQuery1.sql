@@ -31,10 +31,30 @@ create table Productos(
 	URL_IMAGEN varchar(200) null,
 	ESTADO bit not null
 )
+go
 
+create table Pedidos(
+	IDPedido int not null primary key identity(1,1),
+	IDProductos int not null foreign key references Productos(ID),
+	Cantidad int not null check(Cantidad >=1)
+)
+go
 
+create table Clientes(
+	CUIT_CUIL varchar(14) not null primary key,
+	RAZON_SOCIAL varchar(50) not null,
+	CONTACTO varchar(30) not null,
+	DOMICILIO varchar(50) not null,
+	LOCALIDAD varchar(30) not null,
+)
+go
 
-
+create table Remito(
+	ID int not null primary key identity(1,1),
+	CUIT_CUIL varchar(14) not null foreign key references Clientes(CUIT_CUIL),
+	IDPEDIDOS int not null foreign key references Pedidos(IDPedido),
+	FECHA_RTO date not null check(FECHA_RTO > GETDATE())
+)
 
 --datos insertos
 INSERT INTO Marca(TIPOCLIENTE) VALUES('Cliente muy importante')
