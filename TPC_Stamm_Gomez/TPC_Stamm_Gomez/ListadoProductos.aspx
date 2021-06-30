@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ListadoProductos.aspx.cs" Inherits="TPC_Stamm_Gomez.WebForm2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    
     <table class="table">
         <thead>
             <tr>
@@ -20,7 +19,7 @@
                 <th scope="row"><% =item.id %></th>
                 <td><% =item.marcas.nombreMarcas%>
                 <td><%=item.descripcion %></td>
-                <td><%=item.precioUnitario %></td>
+                <td><%=item.precioUnitario.ToString("0.00") %></td>
                 <td><%=item.categorias.nombreCategoria %></td>
             </tr>
 
