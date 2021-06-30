@@ -18,10 +18,10 @@
                 {%>
             <tr>
                 <th scope="row"><% =item.id %></th>
-               <%--<td><% =item.marcas.nombreMarcas%>--%>
+                <td><% =item.marcas.nombreMarcas%>
                 <td><%=item.descripcion %></td>
                 <td><%=item.precioUnitario %></td>
-                <%--<td><%=item.categorias.nombreCategoria %></td>--%>
+                <td><%=item.categorias.nombreCategoria %></td>
             </tr>
 
             <%} %>

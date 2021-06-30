@@ -30,8 +30,10 @@ namespace Negocio
                     aux.id = (int)lector["ID"];
                     aux.descripcion = (string)lector["DESCRIPCION"];
                     aux.precioUnitario = (decimal)lector["PRECIO_UNITARIO"];
-                   // aux.categorias.nombreCategoria = (string)lector["NOMBRECATEGORIA"];
-                   // aux.marcas.nombreMarcas = (string)lector["NOMBRE"];
+                    aux.categorias= new Categorias( (string)lector["NOMBRECATEGORIA"]);
+                    aux.categorias.nombreCategoria = (string)lector["NOMBRECATEGORIA"];
+                    aux.marcas = new Marcas((string)lector["NOMBRE"]);
+                    aux.marcas.nombreMarcas = (string)lector["NOMBRE"];
                     lista.Add(aux);
 
                 }
