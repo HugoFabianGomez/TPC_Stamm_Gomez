@@ -1,0 +1,6 @@
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\bin\Debug\Vista.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\bin\Debug\Vista.pdb
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.pdb

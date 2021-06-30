@@ -226,3 +226,7 @@ D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\obj\Debug\TP
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\obj\Debug\TPC_Stamm_Gomez.csproj.CopyComplete
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\obj\Debug\TPC_Stamm_Gomez.dll
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\obj\Debug\TPC_Stamm_Gomez.pdb
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Dominio.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Negocio.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Dominio.pdb
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Negocio.pdb

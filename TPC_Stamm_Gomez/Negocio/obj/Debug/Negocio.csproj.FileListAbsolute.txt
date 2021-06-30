@@ -1,0 +1,11 @@
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Negocio.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Negocio.pdb
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Dominio.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Vista.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Dominio.pdb
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Vista.pdb
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.dll
+D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.pdb
