@@ -76,13 +76,22 @@ go
 create table StockProductos(
 	ID int primary key not null identity(1,1),
 	IDProducto int not null foreign key references Productos(ID),
-	FECHA_Ingreso date not null check(FECHA_Ingreso = getdate()),
-	CANTIDAD int not null check(CANTIDAD > 0)
+	Fecha_Ingreso date not null,
+	Cantidad int not null check(CANTIDAD > 0),
+	Stock int NOT NULL CHECK(Stock>=0)
 )
 
 --Agrego la columna stock que da la cantidad que desde ahi se saca el stock real 
 ALTER TABLE StockProductos add Stock int not null 
 
-
+drop TABLE StockProductos
 select * from StockProductos
 go
+
+
+SELECT * from Productos
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (5,'2021/07/01',500,500)
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (7,'2021/07/01',250,250)
+SELECT GETDATE()

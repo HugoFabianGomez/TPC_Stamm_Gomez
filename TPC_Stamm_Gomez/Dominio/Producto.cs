@@ -15,7 +15,6 @@ namespace Dominio
         public string descripcion { get; set; }
         public float peso { get; set; }
         public Decimal precioUnitario { get; set;  } 
-        public DateTime fechaVto { get; set; }
         public string urlImagen { get; set; }
         public float estado { get; set; }
     }
