@@ -55,6 +55,34 @@ create table Remito(
 	IDPEDIDOS int not null foreign key references Pedidos(IDPedido),
 	FECHA_RTO date not null check(FECHA_RTO > GETDATE())
 )
-
+go
 --datos insertos
 INSERT INTO Marca(TIPOCLIENTE) VALUES('Cliente muy importante')
+UPDATE Productos set URL_IMAGEN = null where id = @id
+go
+
+--ELIMINAR LA COLUMNA FECHA_VTO
+ALTER TABLE Productos alter column FECHA_VTO date null
+UPDATE Productos set FECHA_VTO = null
+ALTER TABLE Productos drop CONSTRAINT CK__Productos__FECHA__412EB0B6
+ALTER TABLE Productos drop column FECHA_VTO
+go
+
+--MODIFICO LA COLUMNA URLIMAGEN
+ALTER TABLE Productos alter column URL_IMAGEN varchar(700) null
+go
+
+--AGREGO LA NUEVA TABLA
+create table StockProductos(
+	ID int primary key not null identity(1,1),
+	IDProducto int not null foreign key references Productos(ID),
+	FECHA_Ingreso date not null check(FECHA_Ingreso = getdate()),
+	CANTIDAD int not null check(CANTIDAD > 0)
+)
+
+--Agrego la columna stock que da la cantidad que desde ahi se saca el stock real 
+ALTER TABLE StockProductos add Stock int not null 
+
+
+select * from StockProductos
+go
