@@ -28,5 +28,10 @@ namespace TPC_Stamm_Gomez
             }
 
         }
+
+        protected void redireccionClick(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

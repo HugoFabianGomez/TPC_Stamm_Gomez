@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TPC_Stamm_Gomez._Default" %>
+﻿ <%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TPC_Stamm_Gomez._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -8,10 +8,10 @@
                 <div class="sticky-top">
                     <div class="nav flex-column">
                         <div class='col-xs-3'>
-                            <asp:Button Text="Ingreso Stock" runat="server" class="btn btn-primary btn-block" />
-                            <asp:Button Text="Productos" runat="server" class="btn btn-primary btn-block" href="ListadoProductos.aspx" />
-                            <asp:Button Text="Vendedores" runat="server" class="btn btn-primary btn-block" />
-                            <asp:Button Text="Ventas" runat="server" class="btn btn-primary btn-block" />
+                            <a href="ListadoProductos.aspx" class="btn btn-primary btn-block">Productos</a>
+                            <a href=# class="btn btn-primary btn-block">Ventas</a>
+                             <a href=# class="btn btn-primary btn-block">Cargar Stock</a>
+                             <a href=# class="btn btn-primary btn-block">Historial de ingresos</a>
                         </div>
                     </div>
                 </div>
