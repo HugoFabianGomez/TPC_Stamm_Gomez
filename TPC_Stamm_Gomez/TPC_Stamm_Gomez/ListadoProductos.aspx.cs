@@ -24,7 +24,9 @@ namespace TPC_Stamm_Gomez
             catch (Exception ex)
             {
 
-                throw ex;
+                Session.Add("Error", ex.ToString());
+
+                Response.Redirect("Error.aspx");
             }
 
         }

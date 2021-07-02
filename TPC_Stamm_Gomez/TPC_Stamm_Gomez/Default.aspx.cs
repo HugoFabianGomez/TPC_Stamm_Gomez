@@ -21,10 +21,11 @@ namespace TPC_Stamm_Gomez
                 lista = conexionBase.listaStock ();//va a la base y me trae todo el stock
                 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Session.Add("Error", ex.ToString());
 
-                throw;
+                Response.Redirect("Error.aspx");
             }
 
         }
