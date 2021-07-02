@@ -87,11 +87,29 @@ ALTER TABLE StockProductos add Stock int not null
 drop TABLE StockProductos
 select * from StockProductos
 go
+GO
 
-
-SELECT * from Productos
+SELECT * from stockProductos
 INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
 VALUES (5,'2021/07/01',500,500)
 INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
 VALUES (7,'2021/07/01',250,250)
-SELECT GETDATE()
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (7,'2021/07/01',100,100)
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (5,'2021/07/01',1500,1500)
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (5,'2021/07/01',20,20)
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (7,'2021/07/01',200,200)
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (5,'2021/07/02',100,100)
+INSERT INTO StockProductos (IDProducto,FECHA_Ingreso,CANTIDAD,Stock)
+VALUES (7,'2021/07/01',50,50)
+
+
+SELECT * from stockProductos
+
+SELECT M.NOMBRE Marca,P.ID CodigoProducto,S.ID CodigoIngreso, from stockProductos S
+inner join Productos P on P.ID=S.IDProducto
+INNER JOIN Marca M on P.IDMarca=M.ID

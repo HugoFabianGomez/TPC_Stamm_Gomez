@@ -9,7 +9,7 @@
                     <div class="nav flex-column">
                         <div class='col-xs-3'>
                             <asp:Button Text="Ingreso Stock" runat="server" class="btn btn-primary btn-block" />
-                            <asp:Button Text="Productos" runat="server" class="btn btn-primary btn-block" />
+                            <asp:Button Text="Productos" runat="server" class="btn btn-primary btn-block" href="ListadoProductos.aspx" />
                             <asp:Button Text="Vendedores" runat="server" class="btn btn-primary btn-block" />
                             <asp:Button Text="Ventas" runat="server" class="btn btn-primary btn-block" />
                         </div>
@@ -17,12 +17,31 @@
                 </div>
             </div>
             <div class="col" id="main">
-                <h1>Main Area</h1>
-                <p></p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Codigo</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Presentacion</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Sector</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <%foreach (Dominio.Stock item in lista)
+                            {%>
+                        <tr>
+                            <th scope="row"><% =item.id %></th>
+                            <td><% =item.marcas.nombreMarcas%>
+                            <td><% =item.presentacion.descripcion %></td>
+                            <td><% =item.stock %></td>
+                            <td><% =item.categorias.nombreCategoria %></td>
+                        </tr>
 
+                        <%} %>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-
-
 </asp:Content>

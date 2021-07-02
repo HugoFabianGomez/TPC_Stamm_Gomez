@@ -66,6 +66,9 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
+
+
+
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> Administracion de Deposito y Control de Sotck</p>
             </footer>
