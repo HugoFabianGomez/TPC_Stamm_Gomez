@@ -7,9 +7,7 @@
             <div class="col-3 order-2" id="sticky-sidebar">
                 <div class="sticky-top">
                     <div class="nav flex-column">
-                        <div class='col-xs-3'>
-                            <a href="ListadoProductos.aspx" class="btn btn-primary btn-block">Productos</a>
-                            <a href=# class="btn btn-primary btn-block">Ventas</a>
+                        <div class='col-xs-3'> 
                              <a href=# class="btn btn-primary btn-block">Cargar Stock</a>
                              <a href=# class="btn btn-primary btn-block">Historial de ingresos</a>
                         </div>

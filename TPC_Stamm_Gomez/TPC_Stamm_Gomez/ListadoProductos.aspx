@@ -27,5 +27,6 @@
         </tbody>
     </table>
 
+    <a href="Default.aspx" class="btn btn-primary">Volver</a>
 </asp:Content>
 
