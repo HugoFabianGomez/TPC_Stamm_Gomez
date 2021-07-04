@@ -52,5 +52,10 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
+
+        public List<Stock> List_Historial()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

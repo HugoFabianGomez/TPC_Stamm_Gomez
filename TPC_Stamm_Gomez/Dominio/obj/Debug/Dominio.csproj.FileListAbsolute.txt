@@ -7,3 +7,12 @@ D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.cs
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.csproj.CopyComplete
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.dll
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.pdb
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\bin\Debug\Dominio.dll
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\bin\Debug\Dominio.pdb
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\bin\Debug\Vista.dll
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\bin\Debug\Vista.pdb
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.dll
+C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Dominio\obj\Debug\Dominio.pdb
