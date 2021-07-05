@@ -25,7 +25,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <%foreach (Dominio.Stock item in List_Historial)
+                        <%foreach (Dominio.Stock item in historia)
                             {%>
                         <tr>
                             <th scope="row"><% =item.id %></th>

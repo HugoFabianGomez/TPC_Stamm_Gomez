@@ -14,7 +14,7 @@ namespace TPC_Stamm_Gomez
         public List<Stock> historia; 
         protected void Page_Load(object sender, EventArgs e)
         {
-            StockNegocio conexionBase = new StockNegocio();
+            HistorialNegocio conexionBase = new HistorialNegocio();
 
             try
             {

@@ -4,3 +4,9 @@ D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.csproj
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.dll
 D:\Documents\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.pdb
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\bin\Debug\Vista.dll
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\bin\Debug\Vista.pdb
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.csproj.AssemblyReference.cache
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.dll
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Vista\obj\Debug\Vista.pdb

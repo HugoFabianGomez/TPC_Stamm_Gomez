@@ -20,3 +20,14 @@ C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\
 C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.dll
 C:\Users\hfghu\Google Drive\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.pdb
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Negocio.dll
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Negocio.pdb
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Dominio.dll
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Vista.dll
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Dominio.pdb
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Vista.pdb
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.dll
+C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.pdb
