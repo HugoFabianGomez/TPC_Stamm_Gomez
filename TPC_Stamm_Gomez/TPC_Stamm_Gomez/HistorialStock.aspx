@@ -32,7 +32,7 @@
                             <th scope="row"><% =item.id %></th>
                             <td><% =item.marcas.nombreMarcas%> </td>
                             <td><% =item.descripcion %></td>
-                            <td><% =item.fecha_Ingreso %></td>
+                            <td><% =item.fecha_Ingreso.ToShortDateString() %></td>
                             <td><% =item.cantidadIngresada %></td>
                         </tr>
 

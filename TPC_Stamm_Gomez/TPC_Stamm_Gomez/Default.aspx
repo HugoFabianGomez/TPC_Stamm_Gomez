@@ -1,6 +1,7 @@
 ﻿ <%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TPC_Stamm_Gomez._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Stock</h1>
 
     <div class="container">
         <div class="row py-3">
@@ -20,6 +21,7 @@
                         <tr>
                             <th scope="col">Codigo</th>
                             <th scope="col">Producto</th>
+                            <th scope="col">Descripcion</th>
                             <th scope="col">Presentacion</th>
                             <th scope="col">Cantidad</th>
                             <th scope="col">Sector</th>
@@ -31,6 +33,7 @@
                         <tr>
                             <th scope="row"><% =item.id %></th>
                             <td><% =item.marcas.nombreMarcas%>
+                            <td><% =item.descripcion%>
                             <td><% =item.presentacion.descripcion %></td>
                             <td><% =item.stock %></td>
                             <td><% =item.categorias.nombreCategoria %></td>

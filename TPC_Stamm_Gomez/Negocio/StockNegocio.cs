@@ -16,13 +16,13 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta(" SELECT P.ID CodProducto,M.NOMBRE Producto,PR.DESCRIPCION Presentacion,ISNULL(SUM(S.Stock),0) Stock," +
+                datos.setearConsulta(" SELECT P.ID CodProducto,P.DESCRIPCION Descripcion, M.NOMBRE Producto,PR.DESCRIPCION Presentacion,ISNULL(SUM(S.Stock),0) Stock," +
                                     "C.NOMBRECATEGORIA Sector from Productos P " +
                                    "INNER join StockProductos S on S.IDProducto = P.ID " +
                                     "inner join Marca M ON M.ID = P.IDMarca " +
                                     "INNER JOIN Presentacion PR ON PR.ID = P.IDPresentacion " +
                                     "inner join Categoria C on C.ID = P.IDCategoria " +
-                                    "GROUP by  P.ID, M.NOMBRE, PR.DESCRIPCION, C.NOMBRECATEGORIA ");
+                                    "GROUP by  P.ID, M.NOMBRE, PR.DESCRIPCION, C.NOMBRECATEGORIA,P.DESCRIPCION ");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
@@ -35,6 +35,7 @@ namespace Negocio
                     aux.categorias.nombreCategoria = (string)datos.Lector["Sector"];
                     aux.presentacion = new Presentacion((string)datos.Lector["Presentacion"]);
                     aux.presentacion.descripcion =(string)datos.Lector["Presentacion"];
+                    aux.descripcion = (string)datos.Lector["Descripcion"];
 
                     listado.Add(aux);
                     
