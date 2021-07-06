@@ -17,17 +17,20 @@ namespace Negocio
 
             try
             {
-                dato.setearConsulta("select s.ID, p.DESCRIPCION, s.FECHA_Ingreso, s.CANTIDAD, s.Stock from StockProductos s inner join Productos p on s.idproducto=p.ID");
+                dato.setearConsulta("select S.ID ID, P.DESCRIPCION Descripcion, S.FECHA_Ingreso Fecha, S.CANTIDAD Cantidad,"+
+                    "M.NOMBRE Marca  from StockProductos S inner join Productos P on S.idproducto = P.ID "+
+                    "inner join Marca M on M.ID = P.IDMarca");
                 dato.ejecutarLectura();
 
                 while (dato.Lector.Read())
                 {
                     Stock aux2 = new Stock();
                     aux2.id = (int)dato.Lector["ID"];
-                    aux2.descripcion = (string)dato.Lector["DESCRIPCION"];
-                    aux2.fecha_Ingreso = (DateTime)dato.Lector["FECHA_Ingreso"];
-                    aux2.cantidadIngresada = (int)dato.Lector["CANTIDAD"];
-                    aux2.stock = (int)dato.Lector["Stock"];
+                    aux2.descripcion = (string)dato.Lector["Descripcion"];
+                    aux2.fecha_Ingreso = (DateTime)dato.Lector["Fecha"];
+                    aux2.cantidadIngresada = (int)dato.Lector["Cantidad"];
+                    aux2.marcas = new Marcas((string)dato.Lector["Marca"]);
+                    aux2.marcas.nombreMarcas = (string)dato.Lector["Marca"];
 
                     historial.Add(aux2);
                 }

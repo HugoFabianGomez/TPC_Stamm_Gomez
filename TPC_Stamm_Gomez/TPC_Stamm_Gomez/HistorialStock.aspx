@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="HistorialStock.aspx.cs" Inherits="TPC_Stamm_Gomez.HistorialStock" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<h1> HISTORIAL STOCK </h1>
+<h1> Historial Stock </h1>
      <div class="container">
         <div class="row py-3">
             <div class="col-3 order-2" id="sticky-sidebar">
@@ -18,10 +18,11 @@
                     <thead>
                         <tr>
                             <th scope="col">ID</th>
-                            <th scope="col">DESCRIPCION</th>
-                            <th scope="col">FECHA INGRESO</th>
-                            <th scope="col">CANTIDAD INGRESADA</th>
-                            <th scope="col">STOCK</th>
+                            <th scope="col">Marca</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Fecha Ingreso</th>
+                            <th scope="col">Cantidad Ingresada</th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -30,9 +31,9 @@
                         <tr>
                             <th scope="row"><% =item.id %></th>
                             <td><% =item.marcas.nombreMarcas%> </td>
-                            <td><% =item.presentacion.descripcion %></td>
-                            <td><% =item.stock %></td>
-                            <td><% =item.categorias.nombreCategoria %></td>
+                            <td><% =item.descripcion %></td>
+                            <td><% =item.fecha_Ingreso %></td>
+                            <td><% =item.cantidadIngresada %></td>
                         </tr>
 
                         <%} %>
