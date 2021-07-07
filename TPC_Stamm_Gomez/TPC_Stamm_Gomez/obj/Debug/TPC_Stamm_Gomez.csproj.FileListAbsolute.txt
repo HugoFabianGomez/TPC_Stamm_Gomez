@@ -418,3 +418,35 @@ C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_St
 C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\VBCSCompiler.exe
 C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\VBCSCompiler.exe-DESKTOP-PU1H75L.config
 C:\Users\walte\OneDrive\Documentos\GitHub\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\VBCSCompiler.exe.config
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\csc-DESKTOP-PU1H75L.exe
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\csc-DESKTOP-PU1H75L.rsp
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\csc.exe-DESKTOP-PU1H75L.config
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\csi-DESKTOP-PU1H75L.exe
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\csi-DESKTOP-PU1H75L.rsp
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\csi.exe-DESKTOP-PU1H75L.config
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.CodeAnalysis-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.CodeAnalysis.CSharp-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.CodeAnalysis.Scripting-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.CSharp.Core-DESKTOP-PU1H75L.targets
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.Managed.Core-DESKTOP-PU1H75L.targets
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\Microsoft.VisualBasic.Core-DESKTOP-PU1H75L.targets
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Buffers.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Collections.Immutable-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Memory.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Numerics.Vectors.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Reflection.Metadata-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Text.Encoding.CodePages-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\System.Threading.Tasks.Extensions-DESKTOP-PU1H75L.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\vbc-DESKTOP-PU1H75L.exe
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\vbc-DESKTOP-PU1H75L.rsp
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\vbc.exe-DESKTOP-PU1H75L.config
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\VBCSCompiler-DESKTOP-PU1H75L.exe
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\roslyn\VBCSCompiler.exe-DESKTOP-PU1H75L.config
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Dominio.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Negocio.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Dominio.pdb
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\TPC_Stamm_Gomez\bin\Negocio.pdb
