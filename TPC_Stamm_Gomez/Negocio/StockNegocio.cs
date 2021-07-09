@@ -53,10 +53,52 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
-
         public List<Stock> List_Historial()
         {
             throw new NotImplementedException();
         }
+
+        
+        public List<Stock> listaAgregarStock()
+        {
+            List<Stock> listAgregarNuevo = new List<Stock>();
+            AccesoDatos AgregoStock = new AccesoDatos();
+
+            try
+            {
+                //listAgregarNuevo.idproducto = (int)idproducto;
+                //listAgregarNuevo.fecha_Ingreso = (DateTime)fecha_Ingreso;
+                //listAgregarNuevo.cantidadIngresada = cantidadIngresada;
+                //listAgregarNuevo.stock = stock;
+
+                AgregoStock.agregar(listAgregarNuevo);
+
+                return listaAgregarStock();
+            }
+            catch (Exception ex)
+            {
+               // MessageBox.Show(ex.ToString()); tiene error
+
+                throw ex;
+            }
+
+        }
+        public void agregar(Stock agregoStock)
+        {
+            AccesoDatos nuevo = new AccesoDatos();
+            try
+            {
+                string insertar = "values( '" + agregoStock.idproducto + "' , '" + agregoStock.fecha_Ingreso + "' , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
+                nuevo.setearConsulta("insert into(idproducto, FECHA_Ingreso, CANTIDAAD, Stock)" + insertar);
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+
     }
 }

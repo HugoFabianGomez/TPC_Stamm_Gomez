@@ -56,3 +56,19 @@ VALUES(1,2,3,'La vieja y confiable Coca',2,150,'2022/06/29','https://encrypted-t
 
 INSERT into Productos (IDMarca,IDCategoria,IDPresentacion,DESCRIPCION,PESO,PRECIO_UNITARIO,FECHA_VTO,URL_IMAGEN,ESTADO)
 VALUES(5,3,1,'El pancito del osito',1,80,'2021/08/01','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1RDyscZlNk-1VYV0X9altvgU1avsMuCdR6w&usqp=CAU',1)
+
+
+INSERT INTO StockProductos(IDProducto, FECHA_Ingreso, CANTIDAD, Stock)
+VALUES(2, GETDATE(), 100, 100),
+values(1, '2021-07-04', 500	,500),
+values(2, '2021-07-01', 250	,250),
+values(1, '2021-07-01', 100	,100),
+values(2, '2021-07-01', 1500,1500),
+values(1, '2021-07-01', 20	,20),
+values(2, '2021-07-01', 200	,200),
+values(1, '2021-07-02', 100	,100),
+values(2, '2021-07-01', 50	,50	),
+values(2, '2021-07-08', 100	,100)
+
+USE StokDepot_StammGomez
+SELECT * FROM StockProductos
