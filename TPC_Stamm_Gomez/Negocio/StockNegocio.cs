@@ -59,19 +59,19 @@ namespace Negocio
         }
 
         
-        public List<Stock> listaAgregarStock()
+        public Stock listaAgregarStock()
         {
-            List<Stock> listAgregarNuevo = new List<Stock>();
+            Stock listAgregarNuevo = new Stock();
             AccesoDatos AgregoStock = new AccesoDatos();
 
             try
             {
-                //listAgregarNuevo.idproducto = (int)idproducto;
-                //listAgregarNuevo.fecha_Ingreso = (DateTime)fecha_Ingreso;
-                //listAgregarNuevo.cantidadIngresada = cantidadIngresada;
-                //listAgregarNuevo.stock = stock;
+                listAgregarNuevo.idproducto = int.Parse("idproducto");
+                listAgregarNuevo.fecha_Ingreso = DateTime.Parse("fecha_Ingreso");
+                listAgregarNuevo.cantidadIngresada = int.Parse("cantidadIngresada");
+                listAgregarNuevo.stock = int.Parse("stock");
 
-                AgregoStock.agregar(listAgregarNuevo);
+                AgregoStock.(listAgregarNuevo);
 
                 return listaAgregarStock();
             }
@@ -89,7 +89,7 @@ namespace Negocio
             try
             {
                 string insertar = "values( '" + agregoStock.idproducto + "' , '" + agregoStock.fecha_Ingreso + "' , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
-                nuevo.setearConsulta("insert into(idproducto, FECHA_Ingreso, CANTIDAAD, Stock)" + insertar);
+                nuevo.setearConsulta("insert into StockProductos(idproducto, FECHA_Ingreso, CANTIDAAD, Stock)" + insertar);
 
             }
             catch (Exception)

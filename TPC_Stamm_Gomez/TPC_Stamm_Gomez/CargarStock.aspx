@@ -30,15 +30,15 @@
             </div>   
              
             <div class="input-group mb-3">
-              <span class="input-group-text" id="stock">STOCK.................</span>
-              <input type="text" class="form-control" placeholder="123 Cantidad" aria-label="Username" aria-describedby="basic-addon1">
+              <span class="input-group-text" id="stock" >STOCK.................</span>
+              <input type="text" class="form-control" placeholder="123 Cantidad" aria-label="Username" aria-describedby="basic-addon1" >
             </div>
             
         
 
         
         <div class="btn-group" role="group" aria-label="Basic example">
-             <button type="button" class="btn btn-primary" Onclick="ver" >AGREGAR</button>
+             <button type="button" class="btn btn-primary" Onclick="agregar" >AGREGAR</button>
              <button type="button" class="btn btn-primary">MODIFICAR</button>
              <button type="button" class="btn btn-primary">ELIMINAR</button>
         </div>
