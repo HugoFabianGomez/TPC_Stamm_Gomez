@@ -35,3 +35,10 @@ D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.
 D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.dll
 D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.pdb
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Negocio.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Negocio.pdb
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Dominio.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Vista.dll
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Dominio.pdb
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\bin\Debug\Vista.pdb
+D:\GITHUB 2021\TPC_Stamm_Gomez\TPC_Stamm_Gomez\Negocio\obj\Debug\Negocio.csproj.CopyComplete

@@ -11,20 +11,43 @@ namespace TPC_Stamm_Gomez
 {
     public partial class CargarStock : Page
     {
-        public List<Stock> agregar;
         protected void Page_Load(object sender, EventArgs e)
         {
-            CargarStock conexionAgregar = new CargarStock();
+
+            
+            //CargarStock conexionAgregar = new CargarStock();
+            //try
+            //{
+            //    agregar = conexionAgregar.listaAgregarStock();
+            //}
+            //catch (Exception ex)
+            //{
+            //    Session.Add("Error en AGREGARSTOCK", ex.ToString());
+
+            //    Response.Redirect("Error.aspx");
+
+            //}
+        }
+
+        protected void Unnamed_Click(object sender, EventArgs e)//btn_Agregar
+        {
+            Stock nuevoStock = new Stock();
+            StockNegocio stockNegocio = new StockNegocio();
             try
             {
-                agregar = conexionAgregar.listaAgregarStock();
+                nuevoStock.id = int.Parse(text_idproducto.Text);
+                nuevoStock.fecha_Ingreso = DateTime.Parse(text_fecha_ingreso.Text);
+                nuevoStock.cantidadIngresada = int.Parse(text_cantidad.Text);
+                nuevoStock.stock = int.Parse(text_stock.Text);
+
+                stockNegocio.agregar(nuevoStock); //conexion
+                //close();
+
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Session.Add("Error en AGREGARSTOCK", ex.ToString());
 
-                Response.Redirect("Error.aspx");
-
+                throw;
             }
         }
     }

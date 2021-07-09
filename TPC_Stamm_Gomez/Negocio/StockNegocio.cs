@@ -58,37 +58,14 @@ namespace Negocio
             throw new NotImplementedException();
         }
 
-        
-        public Stock listaAgregarStock()
-        {
-            Stock listAgregarNuevo = new Stock();
-            AccesoDatos AgregoStock = new AccesoDatos();
 
-            try
-            {
-                listAgregarNuevo.idproducto = int.Parse("idproducto");
-                listAgregarNuevo.fecha_Ingreso = DateTime.Parse("fecha_Ingreso");
-                listAgregarNuevo.cantidadIngresada = int.Parse("cantidadIngresada");
-                listAgregarNuevo.stock = int.Parse("stock");
 
-                AgregoStock.(listAgregarNuevo);
-
-                return listaAgregarStock();
-            }
-            catch (Exception ex)
-            {
-               // MessageBox.Show(ex.ToString()); tiene error
-
-                throw ex;
-            }
-
-        }
         public void agregar(Stock agregoStock)
         {
             AccesoDatos nuevo = new AccesoDatos();
             try
             {
-                string insertar = "values( '" + agregoStock.idproducto + "' , '" + agregoStock.fecha_Ingreso + "' , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
+                string insertar = "values( '" + agregoStock.id + "' , '" + agregoStock.fecha_Ingreso + "' , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
                 nuevo.setearConsulta("insert into StockProductos(idproducto, FECHA_Ingreso, CANTIDAAD, Stock)" + insertar);
 
             }
