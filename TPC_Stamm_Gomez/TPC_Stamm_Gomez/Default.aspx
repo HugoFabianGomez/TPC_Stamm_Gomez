@@ -9,7 +9,7 @@
                 <div class="sticky-top">
                     <div class="nav flex-column">
                         <div class='col-xs-3'> 
-                             <a href=# class="btn btn-primary btn-block">Cargar Stock</a>
+                             <a href="CargarStock.aspx" class="btn btn-primary btn-block">Cargar Stock</a>
                              <a href="HistorialStock.aspx" class="btn btn-primary btn-block" >Historial de ingresos</a>
                         </div>
                     </div>
