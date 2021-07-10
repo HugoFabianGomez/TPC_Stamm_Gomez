@@ -9,8 +9,10 @@ namespace Negocio
 {
     public class StockNegocio
     {
+        private AccesoDatos datos;
         public List<Stock> listaStock()
         {
+
             List<Stock> listado = new List<Stock>();
             AccesoDatos datos = new AccesoDatos();
 
@@ -62,17 +64,68 @@ namespace Negocio
 
         public void agregar(Stock agregoStock)
         {
-            AccesoDatos nuevo = new AccesoDatos();
+            AccesoDatos accesoStock = new AccesoDatos();
             try
             {
-                string insertar = "values( '" + agregoStock.id + "' , '" + agregoStock.fecha_Ingreso + "' , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
-                nuevo.setearConsulta("insert into StockProductos(idproducto, FECHA_Ingreso, CANTIDAAD, Stock)" + insertar);
+                //string insertar = "values( '" + agregoStock.id + "' , '" + agregoStock.fecha_Ingreso + "' , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
+                string insertar = "values( '" + agregoStock.id + "' , getdate() , '" + agregoStock.cantidadIngresada + "' , '" + agregoStock.stock + "')";
+                accesoStock.setearConsulta("insert into StockProductos(idproducto, FECHA_Ingreso, CANTIDAAD, Stock)" + insertar);
 
+                accesoStock.ejectutarAccion();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw ex;
+            }
+            finally
+            {
+                accesoStock.cerrarConexion();
+            }
+        }
+
+        public void modificar(Stock modificoStock)
+        {
+            AccesoDatos accesoModificar = new AccesoDatos();
+            try
+            {
+                accesoModificar.setearConsulta("update stockproductos set idproducto = @idproducto, fecha_ingreso = @fecha_ingreso, cantidad = @cantidad, stock = @stock where id= @id");
+                accesoModificar.setearParametro("@nombre", modificoStock.id);
+                accesoModificar.setearParametro("@fecha_ingreso", modificoStock.fecha_Ingreso);
+                accesoModificar.setearParametro("@cantidad", modificoStock.cantidadIngresada);
+                accesoModificar.setearParametro("@stock", modificoStock.stock);
+                accesoModificar.setearParametro("@id", modificoStock.id);//falta parametrizar el id de stockproducto
+
+                accesoModificar.ejectutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                accesoModificar.cerrarConexion();
+            }
+        }
+
+        public void eliminar(int id)
+        {
+            datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("Delete from stockproductos where id " + id);
+                datos.ejectutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+                datos = null;
             }
         }
 

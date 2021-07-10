@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.ApplicationServices;
+using System.Windows.Input;
 using Negocio;
 using Dominio;
 
@@ -14,22 +16,24 @@ namespace TPC_Stamm_Gomez
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            
-            //CargarStock conexionAgregar = new CargarStock();
-            //try
-            //{
-            //    agregar = conexionAgregar.listaAgregarStock();
-            //}
-            //catch (Exception ex)
-            //{
-            //    Session.Add("Error en AGREGARSTOCK", ex.ToString());
-
-            //    Response.Redirect("Error.aspx");
-
-            //}
         }
 
-        protected void Unnamed_Click(object sender, EventArgs e)//btn_Agregar
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        public void btn_Modificar_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void btn_Eliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void btn_Agregar_Click(object sender, EventArgs e)
         {
             Stock nuevoStock = new Stock();
             StockNegocio stockNegocio = new StockNegocio();
@@ -41,13 +45,15 @@ namespace TPC_Stamm_Gomez
                 nuevoStock.stock = int.Parse(text_stock.Text);
 
                 stockNegocio.agregar(nuevoStock); //conexion
-                //close();
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw ex;
+            }
+            finally
+            {
+                //Stock.close();
             }
         }
     }
