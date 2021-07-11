@@ -49,11 +49,5 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stock.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Vista\Vista.csproj">
-      <Project>{ce974e84-894e-4d0a-9e65-d89e3bccfd18}</Project>
-      <Name>Vista</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

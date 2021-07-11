@@ -3,53 +3,44 @@
 
     <h1>    CARGAR STOCK</h1>
 
-        <br />  
-         
-             
-            <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
         <br />
             <div class="input-group mb-3">
-              <span class="input-group-text" id="idroducto" width=>IDPRODUCTO.........</span>
+              <span class="input-group-text" width="125px">IDPRODUCTO......</span>
               <%--<input type="text" class="form-control" placeholder="Coca-Cola" aria-label="Username" aria-describedby="basic-addon1">--%>
-                <asp:TextBox runat="server" ID="text_idproducto" />  
+                <asp:TextBox runat="server" ID="text_idproducto" TextMode="Number" type="number" />  
             </div>
                     
             <div class="input-group mb-3">
-              <span class="input-group-text" id="fecha_ingreso" width="125px">FECHA INGRESO</span>
+              <span class="input-group-text" width="125px">FECHA INGRESO</span>
               <%--<input type="text" class="form-control" placeholder="dd/mm/aaaa" aria-label="Username" aria-describedby="basic-addon1">--%>
-                <asp:TextBox runat="server" ID="text_fecha_ingreso"/>  
+                <asp:TextBox runat="server" ID="text_fecha_ingreso" TextMode="Date" type="date" />  
             </div>
                     
             <div class="input-group mb-3">
-              <span class="input-group-text" id="cantidad" >CANTIDAD..........</span>
+              <span class="input-group-text" >CANTIDAD...........</span>
               <%--<input type="text" class="form-control" placeholder="123 Cantidad" aria-label="Username" aria-describedby="basic-addon1">--%>
-                <asp:TextBox runat="server" ID="text_cantidad"/>  
+                <asp:TextBox runat="server" ID="text_cantidad" TextMode="Number" type="number"/>  
             </div>   
              
             <div class="input-group mb-3">
-              <span class="input-group-text" id="stock" >STOCK.................</span>
+              <span class="input-group-text" >STOCK...................</span>
               <%--<input type="text" class="form-control" placeholder="123 Cantidad" aria-label="Username" aria-describedby="basic-addon1" >--%>
-                <asp:TextBox runat="server" ID="text_stock" />  
+                <asp:TextBox runat="server" ID="text_stock" TextMode="Number" type="number"/>  
             </div>
             
         
 
         
         <div class="btn-group" role="group" aria-label="Basic example">
-            <asp:Button Text="AGREGAR" ID="btn_Agregar" OnClick="Unnamed_Click" runat="server"  /> 
-            <button type="button" class="btn btn-primary" onclick="Ägregar" >AGREGAR</button>
-             <button type="button" class="btn btn-primary">MODIFICAR</button>
-             <button type="button" class="btn btn-primary">ELIMINAR</button>
+            <%--<asp:Button Text="AGREGAR" ID="btn_Agreg" OnClick="Unnamed_Click" runat="server"  /> <!-- este es el boton agrear-->--%>
+            <asp:Button Text="AGREGAR"   ID ="btn_Agregar"   OnClick="btn_Agregar_Click"   runat="server" class="btn btn-success" />
+            <asp:Button Text="MODIFICAR" ID ="btn_Modificar" OnClick="btn_Modificar_Click" runat="server" class="btn btn-success" />
+            <asp:Button Text="ELIMINAR"  ID ="btn_Eliminar"  OnClick="btn_Eliminar_Click"  runat="server" class="btn btn-success" />
+             
         </div>
            
         <br />
         <br />  
-        <button type="button" class="btn btn-success">VOLVER</button>
+        <asp:Button ref="HistorialStock.aspx" Text="VOLVER" runat="server" class="btn btn-success"/>
 
 </asp:Content>
